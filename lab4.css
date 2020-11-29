@@ -1,0 +1,187 @@
+		*::selection
+		{
+			color: white;
+			background-color: green;
+		}
+		body
+		{
+			background-color: rgba(208,208,216,.5);
+		}
+		.big-header
+		{
+			height: 45px;
+			background-color: #507299;
+			width: 100%;
+		}
+		.big-header > img
+		{
+			position: absolute;
+			padding-top: 10px;
+			left: 15%;
+		}
+		.block2 > img 
+		{
+			width: 420px;
+		}
+		div
+		{
+			background-color: #edeef0;
+			width: 420px;
+			font-family: Helvetica;
+			text-align: justify;
+			margin: 0 auto;
+			margin-top: 20px;
+			box-shadow: 0 0 0 2px #d0d0d0;
+			border-radius: 10px 10px 10px 10px;
+			padding: 20px;
+		}
+		.block6, .block7 
+		{
+			text-align: left;
+			width: 141px;
+			padding-top: 25px;
+			padding-bottom: 25px;
+			padding-left: 10px;
+			padding-right: 10px;
+			border-radius: 5px 5px 5px 5px;
+		}
+		ul
+		{
+			width: 200px;
+			font-family: Helvetica;
+			height: 90%;
+			position: absolute;
+			left: 400px;
+			color: #2e5473;
+			text-align: left;
+			font-size: 1em;
+			line-height: 1.5;
+			list-style-type: none;
+		}
+		li
+		{
+			padding: 7px;
+		}
+		ul > li > a
+		{
+			position: relative;
+			left: 55px;
+			padding: 2px;
+			width: 120px;
+		}
+		.block6 > p 
+		{
+			background-color: rgba(208,208,216,.4);
+			margin: 0px;
+			margin-top: 0px;
+		}
+
+		.block7 > p
+		{
+			background-color: rgba(208,208,216,.4);
+			margin: 0px;
+			margin-top: 10px;
+		}
+
+		ul > li> a:hover
+		{
+			background-color: rgba(50,72,99,.1);
+		}
+
+		.block6
+		{
+			position: fixed;
+			right: 400px;
+			top: 60px;
+		}
+		.block7
+		{
+			position: fixed;
+			right: 400px;
+			top: 260px;
+		}
+
+		div > footer
+		{
+			  box-sizing: border-box;
+			  min-height: max-content;
+			  display: flex;
+			  justify-content: space-between;
+			  border-top: 3px solid #d0d0d0;
+			  margin-top: 5px;
+		}
+
+		footer > a
+		{
+			margin-top:10px;
+			color: #2e5473;
+		}
+
+		header
+		{
+			box-sizing: border-box;
+			  min-height: max-content;
+			  display: flex;
+			  border-bottom: 3px solid #d0d0d0;
+			  padding-bottom: 5px;
+			  margin-bottom: 10px;
+		}
+
+		.big-footer
+		{
+			font-family: Helvetica;
+			color: grey;
+			background-color: #edeef0;
+			margin-top: 20px;
+			text-align: center;
+			height: 20px;
+			padding-top: 10px;
+		}
+		button
+		{
+			position: absolute;
+			right: 25px;
+
+		}
+
+		@media screen and (max-width: 1919px) and (min-width: 1000px)
+		{
+			aside
+			{
+				display: none;
+			}
+			ul
+			{
+			 	left: -40px;  
+  			}
+  			.big-header > img
+			{
+				left: 160px;
+			}
+		}	
+
+		@media screen and (max-width: 999px)
+		{
+			aside 
+			{
+    			display: none;
+  			}
+  			ul 
+  			{
+  				 width: 400px;
+  				 text-align: center;
+  			}
+  			nav 
+  			{
+  				position: relative;
+  				left: -410px;
+  			}
+
+		 ul > li {
+		    display: inline;
+		  }
+		  .block1
+		  {
+		  	margin-top: 100px;
+		  }
+		} 
