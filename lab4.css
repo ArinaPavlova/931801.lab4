@@ -1,7 +1,7 @@
 		*::selection
 		{
-			color: white;
-			background-color: green;
+			color: green;
+			background-color: rgba(208,208,216,.5);
 		}
 		body
 		{
